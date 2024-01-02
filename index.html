@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kombinatoryka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="content">
+      <div class="island">
+        <h1>Kombinatoryka - reguła mnożenia</h1>
+        <div class="island_content">
+         
+          <div class="line_input_box">
+            <label for="line" class="line_text">Podaj liczbę linii: </label>
+            <input
+              type="number"
+              id="line"
+              min="0"
+              max="25"
+              class="line_input"
+              value="0"
+
+            />
+          </div>
+          <div class="lines_container">
+                <p class="line_text" id="line_container_text">
+                    Podaj ilość możliwych wyborów dla każdej linii: 
+                </p>
+                <div class="lines">
+
+                </div>
+          </div>
+          <div class="score">
+            <p class="score_text">Ilość możliwych kombinacji: <span id="score"></span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+
+  </body>
+</html>
